@@ -1,6 +1,80 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+}
+
+.perfume {
+    height: 28vh;
+    width: auto;
+}
+
+.container {
+    background-color: #1F2937;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 600;
+    color: #F9FAF8;
+}
+
+.comment {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+.title2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1F2937;
+}
+
+.container2 {
+    background-color: white;
+}
+
+.container3 {
+    background-color: #E5E7EB;
+}
+
+header,
+.lil-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16vw;
+    padding-right: 16vw;
+    padding-top: 1.5vh;
+    padding-bottom: 6.4vh;
+}
+
+ul {
+    display: flex;
+    gap: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.lil-container {
+    gap: 10vw;
+}
+
+.title2 {
     
 }
