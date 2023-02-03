@@ -1,14 +1,15 @@
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     line-height: 1.5em;
 }
 
 .perfume {
-    height: 28vh;
+    height: 40vh;
     width: auto;
+    margin-top: 4vw;
 }
 
 .container {
@@ -41,10 +42,14 @@ button {
     font-size: 36px;
     font-weight: 600;
     color: #1F2937;
+    text-align: center;
+    padding-bottom: 5vh;
 }
 
 .container2 {
     background-color: white;
+    padding-top: 3vh;
+    padding-bottom: 12vh;
 }
 
 .container3 {
@@ -75,6 +80,39 @@ a {
     gap: 10vw;
 }
 
-.title2 {
-    
+.small-container {
+    display: flex;
+    gap: 10vh;
+    justify-content: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15vh 23vw;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.author {
+    font-weight: bold;
+    font-style: italic;
+    align-self: flex-end;
+    padding-right: 3vw;
+}
+
+.container4 {
+    padding: 2vw;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
 }
